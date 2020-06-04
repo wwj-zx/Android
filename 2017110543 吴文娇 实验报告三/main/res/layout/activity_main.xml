@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yzbkaka.cardreversal.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/card_layout1"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/card_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/front_back1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffff"
+            android:text="反面"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/card_layout2"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/card_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/front_back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffff"
+            android:text="反面"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="积分："/>
+
+</LinearLayout>
